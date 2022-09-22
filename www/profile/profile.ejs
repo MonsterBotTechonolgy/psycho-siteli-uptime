@@ -1,6 +1,6 @@
 <%- include('../parts/head', {bot, user, path}) %>
 
-<title><%= member.username %> | Profile</title>
+<title><%= member.username %> | Profil</title>
 <head>
     <meta name="og:title" content="<%= member.username %>">
 </head>
@@ -83,12 +83,12 @@
                             <% } %>            
             <br>
             <% if(pdata) {%>
-            <p class="UserDesc mt-1 has-text-white"> <%= pdata.biography || "Biography not setted." %></p>
+            <p class="UserDesc mt-1 has-text-white"> <%= pdata.biography || "Biyografi ayarlanmamış" %></p>
             <% } %>
 		<br>
 	    <%if(req.user) {%>
             <% if(req.user.id === member.id) {%>
-                <a class="btn btn-primary" href="/user/<%=member.id%>/edit"><i class="fad fa-pencil"></i> Edit</a>
+                <a class="btn btn-primary" href="/user/<%=member.id%>/edit"><i class="fad fa-pencil"></i>Düzenle</a>
                 <% } %>
 		<% } %>
         </div>
