@@ -19,10 +19,10 @@ Swal.fire({
  title: 'Succesfull...',
  closeOnConfirm: false,
  text: urlParams.get('message'),
- footer: 'Copyright 2021 &copy vCodes.xyz - All right reserved.'
+ footer: 'Copyright 2021 &copy www.op.xyz - All right reserved.'
 }).then((result) => {
 if (result.isConfirmed) {
-window.location.href = '/admin/unapproved';
+window.location.href = '/admin/certified-bots';
 }
 })
 }
@@ -31,13 +31,13 @@ Swal.fire({
  icon: 'error',
  title: 'Oops...',
  text: urlParams.get('message'),
- footer: 'Copyright 2021 &copy vCodes.xyz - All right reserved.'
+ footer: 'Copyright 2021 &copy www.op.xyz - All right reserved.'
 }).then((result) => {
 if (result.isConfirmed) {
-window.location.href = '/admin/unapproved';
+window.location.href = '/admin/certified-bots';
 }    
 })
 }
 </script>
-     <%- include('static/foot.ejs', { bot,user,path}) %>
+<%- include('static/foot.ejs', { bot,user,path}) %>
 </div>

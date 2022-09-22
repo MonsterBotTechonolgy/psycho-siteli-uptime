@@ -29,13 +29,13 @@
     if(urlParams.has('success') && urlParams.get('success')){
     Swal.fire({
      icon: 'success',
-     title: 'Başarılı...',
+     title: 'Succesfull...',
      closeOnConfirm: false,
      text: urlParams.get('message'),
-     footer: 'Copyright 2022 https://psychopath-techonology.ml/ - Bütün hakları saklıdır.'
+     footer: 'Copyright 2021 &copy www.op.xyz - All right reserved.'
     }).then((result) => {
   if (result.isConfirmed) {
-    window.location.href = '/uptime/links';
+    window.location.href = '/admin/maintence';
   }
 })
     }
@@ -44,7 +44,7 @@
      icon: 'error',
      title: 'Oops...',
      text: urlParams.get('message'),
-     footer: 'Copyright 2022 https://psychopath-techonology.ml/ - Bütün hakları saklıdır.'
+     footer: 'Copyright 2021 &copy www.op.xyz - All right reserved.'
     }).then((result) => {
   if (result.isConfirmed) {
     window.location.href = '/admin/maintence';
