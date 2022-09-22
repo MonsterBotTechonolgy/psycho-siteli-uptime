@@ -163,10 +163,10 @@ app.get("/sitemap.xml", async function(req,res) {
       renderTemplate(res, req, "index.ejs", {config, roles, botdata, getuser});
     });
     app.get("/dc", (req, res) => {
-      res.redirect('https://discord.gg/gn24nq4RGp');
+      res.redirect('https://discord.gg/3J6n8RTqen');
     });  
     app.get("/discord", (req, res) => {
-      res.redirect('https://discord.gg/gn24nq4RGp');
+      res.redirect('https://discord.gg/3J6n8RTqen');
     });  
     app.get("/error", (req, res) => {
           renderTemplate(res, req, "pages/error.ejs", {req, config, res, roles, channels});
