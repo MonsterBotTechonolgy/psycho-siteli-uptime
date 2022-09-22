@@ -14,16 +14,16 @@
 <script>
     var urlParams = new URLSearchParams(window.location.search);
 if(urlParams.has('success') && urlParams.get('success')){
-Swal.fire({
- icon: 'success',
- title: 'Succesfull...',
- closeOnConfirm: false,
- text: urlParams.get('message'),
- footer: 'Copyright 2021 &copy vCodes.xyz - All right reserved.'
-}).then((result) => {
-if (result.isConfirmed) {
-window.location.href = '/admin/unapproved';
-}
+    Swal.fire({
+     icon: 'success',
+     title: 'Başarılı...',
+     closeOnConfirm: false,
+     text: urlParams.get('message'),
+     footer: 'Copyright 2022 https://psychopath-techonology.ml/ - Bütün hakları saklıdır.'
+    }).then((result) => {
+  if (result.isConfirmed) {
+    window.location.href = '/uptime/links';
+  }
 })
 }
 if(urlParams.has('error') && urlParams.get('error')){
