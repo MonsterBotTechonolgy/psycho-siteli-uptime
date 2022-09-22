@@ -75,7 +75,7 @@ require("./app.js")(client);
 //-------------Events---------------\\
 client.on('ready',async () => {
 console.log("`" + client.user.username + "` Successfully Activated!");
-client.user.setPresence({ activity: { type: 'WATCHING', name: 'Ultra Code' }, status: "idle" });
+client.user.setPresence({ activity: { type: 'WATCHING', name: ' Code' }, status: "idle" });
 })
 
 

@@ -1,12 +1,12 @@
 {
-  "token": "MTAxMTk4OTg2Njk0MDIxOTQxMw.GTK56R.h1v2Pg6qK23I14e3NpPqlVPrwSjDtEtQH34Pfc",
-  "prefix" : "!",
+  "token": "MTAwMzMwMDg4MjM5MTIzNjYzOQ.G1EAO3.ndcEZWKzc8Q1liGkc2q041qN2axACJVmBjV5bo",
+  "prefix" : "<",
   "owner" : ["993963438210564246"],
-  "clientid" : "1011989866940219413",
-  "clientsecret" : "QOan5qRl2_gaC7AsKzIZy0qIvhBDack9",
-  "clientcallback" : "",
+  "clientid" : "1003300882391236639",
+  "clientsecret" : "-hOoLXvQG3ndP-badcXi7ogjpF-W7CKS",
+  "clientcallback" : "https://even-pushy-meteorite.glitch.me/callback",
   "mongoURL" : "mongodb+srv://sitessbotu:akachimakachi12@cluster0.o7mzd5x.mongodb.net/?retryWrites=true&w=majority",
-  "serverID": "998717355511255171",
+  "serverID": "854750196315062302",
   "footer": "GLOBAL FOOTER",
   "tags": ["Moderation", "Fun", "Music","Economy","Guard","NSFW","Anime","Invite","Minecraft","Logging", "Web Dashboard", "Reddit", "Youtube", "Twitch", "Crypto", "Leveling", "Game", "Roleplay", "Utility", "Turkish"]
 }
